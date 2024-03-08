@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+height: 100vh;
+
+}
+
+.list-group{
+  margin-top: 2rem;
+  
+  max-height: 400px;
+  overflow-y: scroll;
+  list-style: none;
+  position: absolute;
+  background-color:red;
+  
+  
+    li{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding:10px;
+      border-bottom: 1px solid black;
+      
+      
+    }
+    li:hover{
+      background-color: gold;
+    }
+
+}
