@@ -32,8 +32,6 @@ function App() {
 
   return (
     <>
-    
-    
     <div className='login'>
         {!state?.loggedIn ? (
           <div style={{width:'100vw', display:'flex',flexDirection:'column', justifyContent:'center',alignItems:'center', height:'100vh', background:'#87CEEB'}}>
